@@ -4,6 +4,13 @@ div {
     border: 1px solid black;
     width: 600px;
     height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-items: center;
+    align-items: center; */
+    row-gap: 100px;
+    column-gap: 100px;
 }
 
 .azul {
